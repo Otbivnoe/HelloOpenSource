@@ -6,16 +6,7 @@
 //
 //
 
-#if os(iOS) || os(tvOS)
-    #import <UIKit/UIKit.h>
-
-#elseif os(macOS)
-    #import <Cocoa/Cocoa.h>
-
-#elseif os(watchOS)
-    #import <WatchKit/WatchKit.h>
-
-#endif
+#import <Foundation/Foundation.h>
 
 //! Project version number for HelloOpenSource.
 FOUNDATION_EXPORT double HelloOpenSourceVersionNumber;
