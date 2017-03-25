@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84DAC65C1E783FBD006AE1F7 /* HelloOpenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DAC65A1E783FB8006AE1F7 /* HelloOpenSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84DAC65D1E783FBD006AE1F7 /* HelloOpenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DAC65A1E783FB8006AE1F7 /* HelloOpenSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84DAC65E1E783FBE006AE1F7 /* HelloOpenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DAC65A1E783FB8006AE1F7 /* HelloOpenSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84DAC65F1E783FBE006AE1F7 /* HelloOpenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 84DAC65A1E783FB8006AE1F7 /* HelloOpenSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		840DA2A81E8038E0000B9CE5 /* HelloOpenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 840DA2A61E8038E0000B9CE5 /* HelloOpenSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		840DA2A91E8038E0000B9CE5 /* HelloOpenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 840DA2A61E8038E0000B9CE5 /* HelloOpenSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		840DA2AA1E8038E0000B9CE5 /* HelloOpenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 840DA2A61E8038E0000B9CE5 /* HelloOpenSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		840DA2AB1E8038E0000B9CE5 /* HelloOpenSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 840DA2A61E8038E0000B9CE5 /* HelloOpenSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		840DA2AC1E8038E0000B9CE5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 840DA2A71E8038E0000B9CE5 /* Info.plist */; };
+		840DA2AD1E8038E0000B9CE5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 840DA2A71E8038E0000B9CE5 /* Info.plist */; };
+		840DA2AE1E8038E0000B9CE5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 840DA2A71E8038E0000B9CE5 /* Info.plist */; };
+		840DA2AF1E8038E0000B9CE5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 840DA2A71E8038E0000B9CE5 /* Info.plist */; };
+		846E29D31E802B350039694C /* MainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E29D21E802B350039694C /* MainTests.swift */; };
+		846E29D41E802B350039694C /* MainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E29D21E802B350039694C /* MainTests.swift */; };
+		846E29D51E802B350039694C /* MainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E29D21E802B350039694C /* MainTests.swift */; };
 		84DAC6601E783FC4006AE1F7 /* Greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAC6581E783FB8006AE1F7 /* Greeting.swift */; };
 		84DAC6611E783FC5006AE1F7 /* Greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAC6581E783FB8006AE1F7 /* Greeting.swift */; };
 		84DAC6631E783FC5006AE1F7 /* Greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DAC6581E783FB8006AE1F7 /* Greeting.swift */; };
@@ -45,10 +52,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		840DA2A61E8038E0000B9CE5 /* HelloOpenSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloOpenSource.h; sourceTree = "<group>"; };
+		840DA2A71E8038E0000B9CE5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		846E29591E80231A0039694C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846E29D21E802B350039694C /* MainTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTests.swift; sourceTree = "<group>"; };
 		84DAC6581E783FB8006AE1F7 /* Greeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Greeting.swift; sourceTree = "<group>"; };
-		84DAC65A1E783FB8006AE1F7 /* HelloOpenSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloOpenSource.h; sourceTree = "<group>"; };
-		84DAC65B1E783FB8006AE1F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84DAC6681E7840E6006AE1F7 /* LinuxMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinuxMain.swift; sourceTree = "<group>"; };
 		84DAC66E1E784249006AE1F7 /* HelloOpenSource iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HelloOpenSource iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DAC68C1E784292006AE1F7 /* HelloOpenSource macOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HelloOpenSource macOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,11 +123,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		840DA2A51E8038E0000B9CE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				840DA2A61E8038E0000B9CE5 /* HelloOpenSource.h */,
+				840DA2A71E8038E0000B9CE5 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		847A107F1E75AB0900024494 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				84DAC6571E783FB8006AE1F7 /* HelloOpenSource */,
-				84DAC6591E783FB8006AE1F7 /* Supporting Files */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -127,18 +143,10 @@
 		84DAC6571E783FB8006AE1F7 /* HelloOpenSource */ = {
 			isa = PBXGroup;
 			children = (
+				840DA2A51E8038E0000B9CE5 /* Supporting Files */,
 				84DAC6581E783FB8006AE1F7 /* Greeting.swift */,
 			);
 			path = HelloOpenSource;
-			sourceTree = "<group>";
-		};
-		84DAC6591E783FB8006AE1F7 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				84DAC65A1E783FB8006AE1F7 /* HelloOpenSource.h */,
-				84DAC65B1E783FB8006AE1F7 /* Info.plist */,
-			);
-			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		84DAC6661E7840C1006AE1F7 /* Tests */ = {
@@ -154,6 +162,7 @@
 		84DAC6671E7840CF006AE1F7 /* HelloOpenSourceTests */ = {
 			isa = PBXGroup;
 			children = (
+				846E29D21E802B350039694C /* MainTests.swift */,
 			);
 			path = HelloOpenSourceTests;
 			sourceTree = "<group>";
@@ -188,7 +197,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84DAC65C1E783FBD006AE1F7 /* HelloOpenSource.h in Headers */,
+				840DA2A81E8038E0000B9CE5 /* HelloOpenSource.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +205,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84DAC65D1E783FBD006AE1F7 /* HelloOpenSource.h in Headers */,
+				840DA2A91E8038E0000B9CE5 /* HelloOpenSource.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +213,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84DAC65E1E783FBE006AE1F7 /* HelloOpenSource.h in Headers */,
+				840DA2AA1E8038E0000B9CE5 /* HelloOpenSource.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +221,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84DAC65F1E783FBE006AE1F7 /* HelloOpenSource.h in Headers */,
+				840DA2AB1E8038E0000B9CE5 /* HelloOpenSource.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,14 +365,17 @@
 				TargetAttributes = {
 					84DAC66D1E784249006AE1F7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Manual;
 					};
 					84DAC68B1E784292006AE1F7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					84DAC69A1E784354006AE1F7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					84F89CC71E75578700A48DF5 = {
@@ -437,6 +449,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840DA2AC1E8038E0000B9CE5 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +457,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840DA2AD1E8038E0000B9CE5 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +465,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840DA2AE1E8038E0000B9CE5 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +473,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840DA2AF1E8038E0000B9CE5 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +484,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846E29D31E802B350039694C /* MainTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +492,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846E29D41E802B350039694C /* MainTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +500,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846E29D51E802B350039694C /* MainTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +607,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -635,6 +655,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.opensource.HelloOpenSource-iOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
@@ -691,6 +712,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -738,6 +760,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.opensource.HelloOpenSource-macOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 			};
@@ -790,6 +813,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TVOS_DEPLOYMENT_TARGET = 10.1;
@@ -835,6 +859,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.opensource.HelloOpenSource-tvOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TVOS_DEPLOYMENT_TARGET = 10.1;
@@ -902,7 +927,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "Sources/HelloOpenSource/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -963,7 +988,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "Sources/HelloOpenSource/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1028,7 +1053,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "Sources/HelloOpenSource/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -1088,7 +1113,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "Sources/HelloOpenSource/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -1153,7 +1178,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "Sources/HelloOpenSource/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -1213,7 +1238,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "Sources/HelloOpenSource/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -1280,7 +1305,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "Sources/HelloOpenSource/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
@@ -1341,7 +1366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Sources/Supporting Files/Info.plist";
+				INFOPLIST_FILE = "Sources/HelloOpenSource/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;

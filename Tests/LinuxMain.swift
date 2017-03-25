@@ -25,13 +25,9 @@
 //  THE SOFTWARE.
 //
 
-#if os(Linux)
-
 import XCTest
-@testable import RandomKitTests
+@testable import HelloOpenSourceTests
 
 XCTMain([
-     testCase(RandomKitTests.allTests),
+    testCase(MainTests.allTests),
 ])
-
-#endif

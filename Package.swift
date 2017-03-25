@@ -1,5 +1,8 @@
 import PackageDescription
 
 let package = Package(
-    name: "HelloOpenSource"
+    name: "HelloOpenSource",
+    targets: [
+        Target(name: "HelloOpenSource")
+    ]
 )

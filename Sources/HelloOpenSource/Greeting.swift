@@ -10,7 +10,7 @@ import Foundation
 
 public final class Greeting {
     
-    public func sayHello() -> String {
+    public static func sayHello() -> String {
         #if os(iOS)
             return "Hello iOS platform!"
             
