@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
     spec.version        = "1.0.0"
     spec.summary        = "Our first library :)"
 
-    spec.homepage       = "https://github.com/Otbivnoe/HelloOpenSource"
+    spec.homepage       = "https://github.com/Otbivnoe/HelloOpenSource.git"
     spec.license        = { type: 'MIT', file: 'LICENSE.md' }
     spec.authors        = { "Nikita Ermolenko" => 'gnod94@gmail.com' }
     spec.requires_arc   = true
@@ -13,6 +13,6 @@ Pod::Spec.new do |spec|
     spec.watchos.deployment_target = '2.0'
     spec.tvos.deployment_target    = '9.0'
 
-    spec.source                 = { git: "https://github.com/Otbivnoe/HelloOpenSource", tag: "#{spec.version}"}
-    spec.source_files           = "Sources/#{spec.name}/**/.{h,swift}"
+    spec.source                 = { git: "https://github.com/Otbivnoe/HelloOpenSource.git", tag: "#{spec.version}"}
+    spec.source_files           = "Sources/HelloOpenSource/**/*.{h,swift}"
 end
