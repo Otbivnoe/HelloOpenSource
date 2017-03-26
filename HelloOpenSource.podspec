@@ -6,7 +6,6 @@ Pod::Spec.new do |spec|
     spec.homepage       = "https://github.com/Otbivnoe/HelloOpenSource"
     spec.license        = { type: 'MIT', file: 'LICENSE.md' }
     spec.authors        = { "Nikita Ermolenko" => 'gnod94@gmail.com' }
-    spec.platform       = :ios
     spec.requires_arc   = true
 
     s.ios.deployment_target     = "8.0"
