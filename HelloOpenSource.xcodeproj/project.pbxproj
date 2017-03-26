@@ -62,6 +62,7 @@
 		84DAC69B1E784354006AE1F7 /* HelloOpenSource tvOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HelloOpenSource tvOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E19E1A1E87B55B007C077A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84E19E4A1E880639007C077A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		84E19E4B1E8806BD007C077A /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		84F89CC81E75578700A48DF5 /* HelloOpenSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HelloOpenSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F89CD61E7557A800A48DF5 /* HelloOpenSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HelloOpenSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F89CE31E7557BA00A48DF5 /* HelloOpenSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HelloOpenSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -180,6 +181,7 @@
 		84F89CBC1E7556C400A48DF5 = {
 			isa = PBXGroup;
 			children = (
+				84E19E4B1E8806BD007C077A /* Package.swift */,
 				847A107F1E75AB0900024494 /* Sources */,
 				84DAC6661E7840C1006AE1F7 /* Tests */,
 				84F89CC91E75578700A48DF5 /* Products */,
@@ -1318,7 +1320,7 @@
 				INFOPLIST_FILE = "Sources/HelloOpenSource/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.opensource.HelloOpenSource;
@@ -1379,7 +1381,7 @@
 				INFOPLIST_FILE = "Sources/HelloOpenSource/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.opensource.HelloOpenSource;
 				PRODUCT_NAME = HelloOpenSource;
