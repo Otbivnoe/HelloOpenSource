@@ -61,6 +61,7 @@
 		84DAC68C1E784292006AE1F7 /* HelloOpenSource macOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HelloOpenSource macOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DAC69B1E784354006AE1F7 /* HelloOpenSource tvOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HelloOpenSource tvOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E19E1A1E87B55B007C077A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E19E4A1E880639007C077A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		84F89CC81E75578700A48DF5 /* HelloOpenSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HelloOpenSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F89CD61E7557A800A48DF5 /* HelloOpenSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HelloOpenSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F89CE31E7557BA00A48DF5 /* HelloOpenSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HelloOpenSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				84DAC6571E783FB8006AE1F7 /* HelloOpenSource */,
+				84E19E491E880639007C077A /* hey */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -165,6 +167,14 @@
 				846E29D21E802B350039694C /* MainTests.swift */,
 			);
 			path = HelloOpenSourceTests;
+			sourceTree = "<group>";
+		};
+		84E19E491E880639007C077A /* hey */ = {
+			isa = PBXGroup;
+			children = (
+				84E19E4A1E880639007C077A /* main.swift */,
+			);
+			path = hey;
 			sourceTree = "<group>";
 		};
 		84F89CBC1E7556C400A48DF5 = {
