@@ -8,10 +8,10 @@ Pod::Spec.new do |spec|
     spec.authors        = { "Nikita Ermolenko" => 'gnod94@gmail.com' }
     spec.requires_arc   = true
 
-    s.ios.deployment_target     = "8.0"
-    s.osx.deployment_target     = "10.9"
-    s.watchos.deployment_target = '2.0'
-    s.tvos.deployment_target    = '9.0'
+    spec.homepage.ios.deployment_target     = "8.0"
+    spec.homepage.osx.deployment_target     = "10.9"
+    spec.homepage.watchos.deployment_target = '2.0'
+    spec.homepage.tvos.deployment_target    = '9.0'
 
     spec.source                 = { git: "https://github.com/Otbivnoe/HelloOpenSource", tag: "#{spec.version}"}
     spec.source_files           = "Sources/#{s.name}/**/.{h,swift}"
