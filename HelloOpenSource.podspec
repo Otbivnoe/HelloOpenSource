@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
     spec.summary        = "Our first library :)"
 
     spec.homepage       = "https://github.com/Otbivnoe/HelloOpenSource.git"
-    spec.license        = { type: 'MIT', file: 'LICENSE.md' }
+    spec.license        = 'MIT'
     spec.authors        = { "Nikita Ermolenko" => 'gnod94@gmail.com' }
     spec.requires_arc   = true
 
