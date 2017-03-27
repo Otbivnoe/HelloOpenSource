@@ -35,8 +35,3 @@ script:
         -configuration Release \
         ENABLE_TESTABILITY=YES \
         RUN_CLANG_STATIC_ANALYZER=NO | xcpretty # xcpretty is a fast and flexible formatter for xcodebuild.
-    result=$?
-
-    if [ "$result" -ne 0 ]; then
-        exit $result
-    fi
