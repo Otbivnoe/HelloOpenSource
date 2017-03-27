@@ -29,7 +29,20 @@ matrix:
         - XCODE_ACTION="build" #we can't test watch os :(
         - XCODE_DESTINATION="platform=watchOS Simulator,name=Apple Watch - 38mm"
 script:
-    - script/build
+    - set -o pipefail
+    - if [[ `uname` == "Linux" ]];
+    then
+        eval "$(curl -sL https://raw.githubusercontent.com/onevcat/Swift-CI/master/ci)" #swift build / tests
+    else
+        travis_retry xcodebuild -workspace "$TRAVIS_XCODE_WORKSPACE" \
+                            -scheme "$TRAVIS_XCODE_SCHEME" \
+                            -sdk "$XCODE_SDK" \
+                            -destination "$XCODE_DESTINATION" \
+                            -configuration Release \
+                            ENABLE_TESTABILITY=YES \
+                            RUN_CLANG_STATIC_ANALYZER=NO \
+                            $XCODE_ACTION | xcpretty # xcpretty is a fast and flexible formatter for xcodebuild.
+    fi
 
 after_success:
   - sleep 5 # workaround https://github.com/travis-ci/travis-ci/issues/4725
