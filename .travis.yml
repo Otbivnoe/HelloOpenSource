@@ -24,7 +24,7 @@ matrix:
         - XCODE_ACTION="build" #we can't test watch os :(
         - XCODE_DESTINATION="platform=watchOS Simulator,name=Apple Watch - 38mm"
 script:
-    - set -o pipefail
+    #- set -o pipefail
     - xcodebuild -workspace "$TRAVIS_XCODE_WORKSPACE" \
                 -scheme "$TRAVIS_XCODE_SCHEME" \
                 -sdk "$XCODE_SDK" \
