@@ -1,9 +1,6 @@
-os:
-  - osx
 language: objective-c
 osx_image: xcode8.2
 xcode_workspace: HelloOpenSource.xcworkspace
-
 matrix:
   include:
     - xcode_scheme: HelloOpenSource macOS
@@ -11,30 +8,26 @@ matrix:
         - XCODE_SDK=macosx
         - XCODE_ACTION="build test"
         - XCODE_DESTINATION="arch=x86_64"
-
     - xcode_scheme: HelloOpenSource iOS
       env:
         - XCODE_SDK=iphonesimulator
         - XCODE_ACTION="build test"
         - XCODE_DESTINATION="platform=iOS Simulator,id=31E6604A-19AA-4B68-B560-C33C584BC80D" # iPhone 6s, iOS 10.2
-
     - xcode_scheme: HelloOpenSource tvOS
       env:
         - XCODE_SDK=appletvsimulator
         - XCODE_ACTION="build test"
         - XCODE_DESTINATION="platform=tvOS Simulator,name=Apple TV 1080p"
-
     - xcode_scheme: HelloOpenSource watchOS
       env:
         - XCODE_SDK=watchsimulator
         - XCODE_ACTION="build" #we can't test watch os :(
         - XCODE_DESTINATION="platform=watchOS Simulator,name=Apple Watch - 38mm"
-
 script:
-  # if Linux - swift build / test
-  # else 
+    # if Linux - swift build / test
+    # else 
     set -o pipefail
-    - xcodebuild $XCODE_ACTION \
+    xcodebuild $XCODE_ACTION \
         -workspace "$TRAVIS_XCODE_WORKSPACE" \
         -scheme "$TRAVIS_XCODE_SCHEME" \
         -sdk "$XCODE_SDK" \
@@ -42,7 +35,6 @@ script:
         -configuration Release \
         ENABLE_TESTABILITY=YES \
         RUN_CLANG_STATIC_ANALYZER=NO | xcpretty # xcpretty is a fast and flexible formatter for xcodebuild.
-
     result=$?
 
     if [ "$result" -ne 0 ]; then
