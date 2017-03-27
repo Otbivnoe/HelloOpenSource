@@ -30,3 +30,6 @@ matrix:
         - XCODE_DESTINATION="platform=watchOS Simulator,name=Apple Watch - 38mm"
 script:
     - script/build
+
+after_success:
+  - sleep 5 # workaround https://github.com/travis-ci/travis-ci/issues/4725
