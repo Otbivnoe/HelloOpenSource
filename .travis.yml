@@ -30,8 +30,7 @@ matrix:
         - XCODE_DESTINATION="platform=watchOS Simulator,name=Apple Watch - 38mm"
 script:
     - set -o pipefail
-    - if [[ `uname` == "Linux" ]];
-    then
+    - if [[ `uname` == "Linux" ]]; then
         eval "$(curl -sL https://raw.githubusercontent.com/onevcat/Swift-CI/master/ci)" #swift build / tests
     else
         travis_retry xcodebuild -workspace "$TRAVIS_XCODE_WORKSPACE" \
