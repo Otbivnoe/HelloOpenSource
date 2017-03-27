@@ -17,7 +17,7 @@ class MainTests: XCTestCase {
     
     func testGreetings() {
         #if os(iOS)
-            XCTAssertEqual("Hello iOS platform!", Greeting.sayHello())
+            XCTAssertEqual("Hello iOS-boom platform!", Greeting.sayHello())
             
         #elseif os(macOS)
             XCTAssertEqual("Hello macOS platform!", Greeting.sayHello())
