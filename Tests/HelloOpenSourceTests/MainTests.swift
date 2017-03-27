@@ -20,13 +20,10 @@ class MainTests: XCTestCase {
             XCTAssertEqual("Hello iOS-boom platform!", Greeting.sayHello())
             
         #elseif os(macOS)
-            XCTAssertEqual("Hello macOS platform!", Greeting.sayHello())
-        
-        #elseif os(watchOS)
-            XCTAssertEqual("Hello watchOS platform!", Greeting.sayHello())
-        
+            XCTAssertEqual("Hello macOS222 platform!", Greeting.sayHello())
+
         #elseif os(tvOS)
-            XCTAssertEqual("Hello tvOS platform!", Greeting.sayHello())
+            XCTAssertEqual("Hello tvOS 444platform!", Greeting.sayHello())
         
         #else
             XCTAssertEqual("Hello Linux!", Greeting.sayHello())
