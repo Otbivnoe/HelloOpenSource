@@ -27,12 +27,13 @@ matrix:
     - xcode_scheme: HelloOpenSource watchOS
       env:
         - XCODE_SDK=watchsimulator
-        - XCODE_ACTION=build #we can't test watch os :(
+        - XCODE_ACTION="build" #we can't test watch os :(
         - XCODE_DESTINATION="platform=watchOS Simulator,name=Apple Watch - 38mm"
 
 script:
   # if Linux - swift build / test
   # else 
+    set -o pipefail
     - xcodebuild $XCODE_ACTION \
         -workspace "$TRAVIS_XCODE_WORKSPACE" \
         -scheme "$TRAVIS_XCODE_SCHEME" \
@@ -41,3 +42,9 @@ script:
         -configuration Release \
         ENABLE_TESTABILITY=YES \
         RUN_CLANG_STATIC_ANALYZER=NO | xcpretty # xcpretty is a fast and flexible formatter for xcodebuild.
+
+    result=$?
+
+    if [ "$result" -ne 0 ]; then
+        exit $result
+    fi
